@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'Quicksand Book';
+    src: url('fonts/QuicksandBook-Regular.woff2') format('woff2'),
+        url('fonts/QuicksandBook-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Kalinka College';
+    src: url('fonts/KalinkaCollege-Regular.woff2') format('woff2'),
+        url('fonts/KalinkaCollege-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 /* General setup */
 
 html {
@@ -16,14 +36,17 @@ body {
 
 h1 {
   font-size: 3.2rem;
+  font-family: 'Kalinka College';
 }
 
 h2 {
   font-size: 2.4rem;
+  font-family: 'Kalinka College';
 }
 
 p {
   font-size: 1.4rem;
   line-height: 1.6;
   word-spacing: 0.6rem;
+  font-family: 'Quicksand Book';
 }
